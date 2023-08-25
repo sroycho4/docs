@@ -36,7 +36,9 @@ To use the {% data variables.product.prodname_container_registry %} on {% data v
 The {% data variables.product.prodname_container_registry %} currently supports the following container image formats:
 
 - [Docker Image Manifest V2, Schema 2](https://docs.docker.com/registry/spec/manifest-v2-2/)
+  <p> It includes information about layers, metadata, and configuration for an image.</p>
 - [Open Container Initiative (OCI) Specifications](https://github.com/opencontainers/image-spec)
+  <p>OCI is a set of industry standards for container images and runtimes.</p>
 
 When installing or publishing a Docker image, the {% data variables.product.prodname_container_registry %} supports foreign layers, such as Windows images.
 
